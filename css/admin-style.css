@@ -1,0 +1,55 @@
+
+input :not([type="submit"]){
+	outline: none;
+	color: rgb(190, 188, 188);
+	font-style: italic;
+	width:50%;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type="submit"]{
+float:right;
+}
+
+.fixed{
+width:100%;
+float:center;
+}
+
+.fixed td{
+padding:5px;
+}
+.fixed td div{
+width: 110px;
+overflow-x:hidden;
+}
+
+.fixed td .phone{
+width: 150px;
+overflow-x:hidden;
+}
+
+
+.showInfo{
+float:left;
+width:100%;
+overflow-x:hidden;
+}
+.register{
+float:left;
+width:100%;
+}
+.accContainer{
+min-height:450px;
+}
+table.signup { 
+table-layout: fixed;
+width: 100%;
+}
+table.signup td{
+height:2em;
+padding:2px;
+}

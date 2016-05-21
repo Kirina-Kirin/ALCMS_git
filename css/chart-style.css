@@ -1,0 +1,86 @@
+table {
+	background-image:url('../image/bg_fade.png');
+	background-repeat:repeat-x;
+	background-position:left top;
+	width: 100%;
+	border-collapse: collapse;
+}
+th {
+	text-align: center;
+	border-bottom:1px solid #000;
+	float:center;
+	padding: auto;
+}
+th.center{
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+td {
+	padding: 4px 6px;
+	border-bottom:1px solid #e5e5e5;
+	border-left:1px solid #e5e5e5;
+}
+td.last {
+	background-image: url('../image/gridline58.gif');
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color:transparent;
+	border-top:1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	word-wrap:break-word;
+	white-space: nowrap;
+	width:1%;
+	padding: 0 3em 0 3em;
+}
+
+td.last2 {
+	border-top:1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	word-wrap:break-word;
+	white-space: nowrap;
+	width:1%;
+	padding: 0 3em 0 3em;
+}
+
+td.first {
+	border-top:1px solid #e5e5e5;
+	word-wrap:break-word;
+	white-space: nowrap;
+	border-right: 1px solid #000;
+	width:1%;
+	padding: 0 3em 0 3em;
+}
+td.value {
+	background-image: url('../image/gridline58.gif');
+	background-repeat: repeat-x;
+	background-position: left top;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom:1px solid #e5e5e5;
+	padding:0;
+	background-color:transparent;
+}
+td.value img {
+	vertical-align: middle;
+	margin: 5px 5px 5px 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+}
+
+.main{
+	min-height:200%;
+}
+
+.auraltext
+{
+   position: absolute;
+   font-size: 0;
+   left: -1000px;
+}
+
+caption {
+	font-size:2em;
+	font-style:italic;
+}

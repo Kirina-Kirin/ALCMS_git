@@ -1,0 +1,249 @@
+		@font-face{
+			font-family: 'Press Start 2P';
+			src: url('../font/PressStart2P.ttf');
+		}
+		
+		*{
+			margin: 0px;
+			padding: 0px;
+			font-family:'Press Start 2P';
+		}
+		body {
+			background: #ffffff url('../image/boardbg.jpg') no-repeat fixed ;
+			background-position: center 0;
+			font-family:'Press Start 2P';
+		}
+		
+		
+		#main{
+			width: 1000px;
+			margin:0 auto;
+		}
+		
+		header{
+			height:80px;
+		}
+		
+		
+		h2{
+			margin: 5px;
+		
+		}
+		
+		table{
+			width: 1000px;
+
+		}
+		
+		a{
+			text-decoration: none;
+		}
+		
+		#board {
+			margin: 0 auto;
+			background: #1b1e23;
+			border:4px solid #1b1e23;
+			-moz-border-radius-topright: 20px;
+			border-top-right-radius: 20px;
+			-moz-border-radius-topleft: 20px;
+			border-top-left-radius: 20px;
+		}
+		
+		#board td{
+			font-size: 13px;
+			word-wrap:break-word;		
+		}
+		
+		#board  tr td:nth-child(1){
+			width:600px;
+		}
+		
+		#board  tr td:nth-child(2){
+			width:120px;
+		}
+		
+		#board  tr td:nth-child(3){
+			width:90px;
+		}
+		
+		#board  tr td:nth-child(4){
+			width:90px;
+		}
+		#topic{
+			width:600px;
+			word-wrap:break-word;
+			color: orange;
+		}
+		#name{
+			width:120px;
+			word-wrap:break-word;
+		}	
+		p{
+			width:90px;
+			word-wrap:break-word;
+		}
+		
+		nav{
+			padding:5px;
+			line-height:150%;
+			float:right;
+			margin-right:50px;
+		
+		}
+		
+		nav.black a{
+			text-decoration: none;
+			color:#1b1e23;
+		}
+		
+		nav a{
+			text-decoration: none;
+			color:#ccc;
+		}
+
+		#board th{
+			background-color: #1b1e23;
+			color: #BBBBBB;
+			-moz-border-radius-topright: 20px;
+			border-top-right-radius: 20px;
+			-moz-border-radius-topleft: 20px;
+			border-top-left-radius: 20px;
+		}
+		
+		#board th:nth-child(1){
+			text-align:left;
+
+		}
+		
+		th{
+			height: 50px;
+		}
+		
+		td{
+			border:solid 2px white;
+			height: 50px;
+			color: #888888;
+			background-color: white;
+			padding: 5px;
+		}
+		#comment{
+			border:4px solid #1b1e23;
+			background-color: #DDDDDD;
+		}
+		
+		#comment th{
+			text-align:left;
+			padding: 5px;
+			background-color: #DDDDDD;
+			
+		}
+		
+		#comment tr td:nth-child(1){
+			width:75%;
+			
+		}
+		
+		#commentList{
+			border-top:4px solid #1b1e23;
+			border-left:4px solid #1b1e23;
+			border-right:4px solid #1b1e23;	
+			background-color: #DDDDDD;
+		}
+		
+		#commentList th{
+			text-align:left;
+			padding: 5px;
+			background-color: #DDDDDD;
+			word-wrap:break-word;
+		}
+		
+		#commentDetail{
+			width:950px;
+			padding: 0.3em;
+			word-wrap:break-word;
+		}
+		
+		#commentList td{
+			word-wrap:break-word;
+		}
+		
+		
+		
+		tr td:nth-child(3){
+			text-align:center;
+		}
+		
+		tr td:nth-child(4){
+			text-align:center;
+		}
+		
+		#content{
+			color: #ffffff;
+			background-color: #1b1e23;
+			padding: 2em;
+			border-top:4px solid #1b1e23;
+			border-left:4px solid #1b1e23;
+			border-right:4px solid #1b1e23;				
+			-moz-border-radius-topright: 20px;
+			border-top-right-radius: 20px;
+			-moz-border-radius-topleft: 20px;
+			border-top-left-radius: 20px;
+			word-wrap:break-word;		
+		}
+		
+		#content h1{
+			color: orange;
+			border-bottom:4px solid orange;
+			padding-bottom: 0.5em;
+			
+		}
+		
+		#contentDetail{
+			padding-top: 1em;
+		}
+		
+		
+		
+		#postDetail{
+			color: #bbbbbb;
+		}
+		
+		#post {
+			margin: 0 auto;
+			background: #1b1e23;
+			border:4px solid #1b1e23;
+			-moz-border-radius-topright: 20px;
+			border-top-right-radius: 20px;
+			-moz-border-radius-topleft: 20px;
+			border-top-left-radius: 20px;
+			
+		}
+		
+		#post th{
+			background: #1b1e23;
+			border:4px solid #1b1e23;
+			color: orange;
+			text-align: left;
+			-moz-border-radius-topright: 20px;
+			border-top-right-radius: 20px;
+			-moz-border-radius-topleft: 20px;
+			border-top-left-radius: 20px;
+		}
+		
+		#topicfill{
+			width: 500px;
+			color: orange;
+			background-color: #1b1e23;
+			font-family:'Press Start 2P';		
+			padding: 0.3em;
+			border: solid 2px orange;	
+		}
+		
+		footer{
+			text-align: center;
+			line-height:150%;
+			font-size:10px;
+			margin:15px auto;
+			border:0;
+		}
+		

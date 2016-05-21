@@ -1,0 +1,55 @@
+
+body.howToStyle_body{
+	width: 900px;
+	background-color: black;
+}
+div.howToStyle_div{
+	color: black;
+	position:relative;
+	width: 945px;
+	margin:0 auto;
+	padding:0 auto;
+}
+
+table.howToStyle_table{
+	position:relative;
+	margin:0 auto;
+	padding:0 auto;
+	bottom:10%;
+	top:0%;
+	width:100%;
+	border-collapse:collapse;
+}
+table.howToStyle_table td{
+	height:170px;
+	border-bottom:1px solid black;
+	text-align:center;
+}
+
+table.howToStyle_table th{
+	width:50%;
+	height:170px;
+	font-weight:bold;
+	font-size:30px;
+	text-height:30px;
+	border-bottom:1px solid black;
+	text-align:center;
+}
+img.howToStyle_img{
+	width:50%;
+	clear:both;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+p.howToStyle_p{
+	color: black;
+	clear:both;
+	position:inherit;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:70%;
+	text-align:left;
+}

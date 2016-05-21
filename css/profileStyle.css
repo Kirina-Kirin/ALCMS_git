@@ -1,0 +1,27 @@
+#profile{
+
+	color: white;
+	line-height: 30px;
+	text-align:center;
+}
+#profile h1{
+	color: orange;
+	font-size: 50px;
+}
+
+#profile h2{
+	color: orange;
+	font-size: 20px;
+}
+
+#profile .info{
+	margin: 0 auto;
+}
+
+#profile span{
+	color: orange;
+	padding: 2px;
+	
+}
+
+
